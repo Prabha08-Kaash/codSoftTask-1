@@ -1,0 +1,273 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(img/image1.jpg) no-repeat;
+    height: 1800px;
+    overflow-x: hidden;
+    color: white;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+.logo {
+
+    display: inline-block;
+    position: absolute;
+    left: 25PX;
+    top: 35px;
+    padding: 20px 20px;
+    margin-left: auto;
+}
+
+.logo img {
+    width: 80px;
+    filter: invert(100%)
+}
+
+
+.logo div {
+    text-align: center;
+    line-height: 15px;
+    font-size: 25px;
+}
+
+.navbar {
+    display: block;
+    width: 50%;
+    margin: 1px auto;
+}
+
+.nava {
+    display: inline-block;
+}
+
+.nava li {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.nava li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px
+}
+
+.nava li a:hover,
+.nava li a.active {
+    text-decoration: underline;
+    color: yellow;
+}
+
+
+.buttons {
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 25px;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: rgb(201, 36, 113);
+    color: white;
+    padding: 1px 12px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.title {
+
+    margin-left: 150px;
+    margin-right: 700px;
+    margin-top: 150px;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 60%;
+}
+
+.description {
+    font-size: 40px;
+}
+
+.button {
+    border: 1px solid white;
+    width: 10%;
+    padding: 3px 6px;
+    margin: auto 150px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(219, 28, 28);
+}
+
+.box {
+    display: flex;
+    height: 300px;
+    margin-top: 338px;
+    width: 100%;
+}
+
+
+.box div {
+
+    margin: 2px;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    box-sizing: 1px;
+    width: 36%;
+    line-height: 30px;
+}
+
+.box img {
+    height: 70px;
+    filter: invert(100%);
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 26px;
+
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box1 div {
+    padding-left: 181px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box2 {
+    background-color: black;
+
+}
+
+.box2 div {
+    padding-left: 181px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box3 div {
+    padding-left: 181px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.whereWeAre {
+
+    height: 70px;
+    text-align: center;
+    padding: 15px;
+    font-size: 60px;
+
+    line-height: 80px;
+    color: rgb(75, 75, 199);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.address {
+
+    height: 80px;
+    font-size: 25px;
+    padding-top: px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+footer {
+    background-color: #111;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #111;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav {
+    margin: 30px 0px;
+
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.footerBottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
